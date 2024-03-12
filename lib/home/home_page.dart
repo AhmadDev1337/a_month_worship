@@ -106,6 +106,7 @@ class _HomePageState extends State<HomePage> {
             Container(
               margin: EdgeInsets.all(10),
               height: MediaQuery.of(context).size.height * 0.2,
+              color: Colors.grey,
               child: Stack(
                 fit: StackFit.expand,
                 children: [
